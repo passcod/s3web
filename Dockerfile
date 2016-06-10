@@ -3,6 +3,7 @@ MAINTAINER Félix Saparelli <me@passcod.name>
 
 CMD /start.sh
 ENV S3_BASEURL https://s3.amazonaws.com
+EXPOSE 80
 
 RUN apk add --update --no-cache \
       autoconf automake build-base caddy \
